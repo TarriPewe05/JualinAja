@@ -73,6 +73,12 @@
   text-decoration: underline;
 }
 
+.card-animate:hover {
+  cursor: pointer;
+  border-color: var(--bs-blue);
+  border-width: 2;
+}
+
 .card_body {
   background-color: var(--bs-lightblue);
   height: 50px;
@@ -84,8 +90,8 @@
   text-align: center;
 }
 
-.card-img{
-    height: 350px;
+.card-img {
+  height: 350px;
 }
 
 .card-subtitle1 {
@@ -108,32 +114,30 @@
   font-weight: 300;
 }
 
-.load-title{
-    text-align: center;
-    color: var(--bs-blue);
-    cursor: pointer;
-    margin-bottom: 40px;
+.load-title {
+  text-align: center;
+  color: var(--bs-blue);
+  cursor: pointer;
+  margin-bottom: 40px;
 }
 
 /* Footer */
 
-footer{
-    background-color: var(--bs-blue);
+footer {
+  background-color: var(--bs-blue);
 }
 
-.footer-link{
-    text-align: center;
-    color: var(--bs-white);
+.footer-link {
+  text-align: center;
+  color: var(--bs-white);
 }
 
-.link a{
-    color: var(--bs-white);
-    text-decoration: none;
-    cursor: pointer;
+.link a {
+  color: var(--bs-white);
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.link a:hover{
-    color: var(--bs-yellow);
+.link a:hover {
+  color: var(--bs-yellow);
 }
-
-
