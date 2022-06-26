@@ -108,8 +108,28 @@
     text-align: center;
     color: var(--bs-blue);
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
+/* Footer */
+
+footer{
+    background-color: var(--bs-blue);
+}
+
+.footer-link{
+    text-align: center;
+    color: var(--bs-white);
+}
+
+.link a{
+    color: var(--bs-white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link a:hover{
+    color: var(--bs-yellow);
+}
 
 
