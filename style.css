@@ -141,3 +141,35 @@ footer {
 .link a:hover {
   color: var(--bs-yellow);
 }
+/* ------------------details-rumah-1----------------------- */
+
+.bungkus {
+  width: 100%;
+  background-color: #f4d160;
+}
+
+.h2-nduwur {
+  color: #28527A;
+}
+
+.data-1{
+  color: rgba(0, 0, 0, 0.52);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.data-2 {
+  color: #28527A;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.kardus-shadow {
+  box-shadow: 1px 10px 19px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 10px 19px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 10px 19px -8px rgba(0,0,0,0.75);
+}
+
+
+
+/* ------------------details-rumah-1----------------------- */
