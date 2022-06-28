@@ -185,3 +185,20 @@ h6 {
   color: #28527a;
   font-weight: bold;
 }
+
+/* ------------------------Login------------------------------------------------------------------------- */
+btn-color{
+  background-color: #0e1c36;
+  color: #fff;
+  
+}
+
+
+
+.cardbody-color{
+  background-color: #a4a7ac;
+}
+
+a{
+  text-decoration: none;
+}
