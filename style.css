@@ -202,3 +202,12 @@ btn-color{
 a{
   text-decoration: none;
 }
+
+.xx1 {
+  border-bottom: 1px solid rgba(107, 104, 104, 0.699);
+  padding-bottom: 15px;
+}
+
+.vyi {
+  background-color: #D9EEF8;
+}
