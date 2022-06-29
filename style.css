@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
   --bs-blue: #28527a;
@@ -154,28 +153,26 @@ footer {
 }
 
 .h2-nduwur {
-  color: #28527A;
+  color: #28527a;
 }
 
-.data-1{
+.data-1 {
   color: rgba(0, 0, 0, 0.52);
   font-size: 20px;
   font-weight: bold;
 }
 
 .data-2 {
-  color: #28527A;
+  color: #28527a;
   font-size: 20px;
   font-weight: bold;
 }
 
 .kardus-shadow {
-  box-shadow: 1px 10px 19px -8px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 10px 19px -8px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 10px 19px -8px rgba(0,0,0,0.75);
+  box-shadow: 1px 10px 19px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 10px 19px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 10px 19px -8px rgba(0, 0, 0, 0.75);
 }
-
-
 
 /* ------------------details-rumah-1----------------------- */
 
@@ -192,19 +189,39 @@ h6 {
 }
 
 /* ------------------------Login------------------------------------------------------------------------- */
-btn-color{
-  background-color: #0e1c36;
-  color: #fff;
-  
+.login-form{
+  background-color:whitesmoke;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
-
-
-.cardbody-color{
-  background-color: #a4a7ac;
+.container-btn {
+  background-color: var(--bs-white) !important;
+  border-radius: 5px;
 }
 
-a{
+.container-btn:hover {
+  background-color: var(--bs-yellow) !important;
+}
+
+.btn-link{
+  color: var(--bs-blue);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-link:hover{
+  color: var(--bs-blue);
+}
+
+.cardbody-color {
+  background-color: var(--bs-blue);
+  border-radius: 5px;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -214,7 +231,7 @@ a{
 }
 
 .vyi {
-  background-color: #D9EEF8;
+  background-color: #d9eef8;
 }
 
 .atas-bg-1 {
@@ -224,8 +241,9 @@ a{
   color: white;
 }
 
-.atas-bg-2{
-  background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/olx-map.png);
+.atas-bg-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./assets/olx-map.png);
   background-size: cover;
   color: black;
 }
@@ -250,8 +268,7 @@ a{
   filter: grayscale(100%);
 }
 
-.imbage:hover{
-
+.imbage:hover {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
@@ -306,15 +323,14 @@ a{
 
 @media screen and (max-width: 1204px) {
   .gmbrr {
-    width:274.66px;
+    width: 274.66px;
     height: 154.5px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .gmbrr {
-    width:189.3px;
+    width: 189.3px;
     height: 106.48px;
   }
 }
-
