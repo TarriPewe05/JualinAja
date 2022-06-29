@@ -217,3 +217,104 @@ a{
   background-color: #D9EEF8;
 }
 
+.atas-bg-1 {
+  background-image: url(./assets/Vector_2646.jpg);
+  height: 80vh;
+  background-size: cover;
+  color: white;
+}
+
+.atas-bg-2{
+  background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/olx-map.png);
+  background-size: cover;
+  color: black;
+}
+
+.btnss {
+  border: 2px solid black;
+  text-decoration: none;
+  color: #0e1c36;
+  padding: 16px 18px;
+  margin: 10px;
+}
+
+.btnss:hover {
+  background-color: #0e1c36;
+  color: white;
+}
+
+.imbage {
+  width: 120px;
+  height: 60px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.imbage:hover{
+
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.pttrn1 {
+  background-image: url(./assets/pattern-1.jpg);
+  background-size: cover;
+}
+
+.pttrn2 {
+  background-image: url(./assets/pattern-2.jpg);
+  background-size: cover;
+}
+
+.pttrn3 {
+  background-image: url(./assets/pattern-3.jpg);
+  background-size: cover;
+}
+.pttrn4 {
+  background-image: url(./assets/pattern-4.jpg);
+  background-size: cover;
+}
+
+.pttrn5 {
+  background-image: url(./assets/pattern-5.jpg);
+  background-size: cover;
+}
+
+.pttrn1-1 {
+  background-image: url(./assets/ptrn-1.jpg);
+  background-size: cover;
+}
+
+.pttrn2-1 {
+  background-image: url(./assets/ptrn-2.jpg);
+  background-size: cover;
+}
+
+.pttrn3-1 {
+  background-image: url(./assets/ptrn-3.jpg);
+  background-size: cover;
+}
+.pttrn4-1 {
+  background-image: url(./assets/ptrn-4.jpg);
+  background-size: cover;
+}
+
+.pttrn5-1 {
+  background-image: url(./assets/ptrn-5.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 1204px) {
+  .gmbrr {
+    width:274.66px;
+    height: 154.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gmbrr {
+    width:189.3px;
+    height: 106.48px;
+  }
+}
+
